@@ -1,0 +1,138 @@
+body{
+    font-family: "Yu Gothic Medium",sans-serif;
+    font-size: 18px;
+    color: #a62929;
+}
+
+
+.contents{
+    max-width: 600px;
+    margin: 200px auto 100px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+}
+
+.contents h1{color: #000000;}
+.contents p{color: blue;}
+
+.contents-nopalt{
+    max-width: 600px;
+    margin: 100px auto;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+.contents-nopalt h1{color: #CCCCCC;}
+
+.contents-serif{
+    max-width: 600px;
+    margin: 100px auto;
+    font-family: "游明朝体","Yu Mincho",YuMinco,serif;
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+}
+
+.contents-google{
+    max-width: 600px;
+    margin: 100px auto;
+    font-family: 'BIZ UDPGothic', sans-serif;;
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+} */
+
+a{
+    transition: 0.3s;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.page-header,
+.page-top,
+.page-footer{
+    min-width: 1280px;
+    width: 100%;
+}
+
+.page-header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /* padding: 16px 0 24px; */
+    background-color: #DBD0E8;
+}
+
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 96px;
+    margin-top: 20px;
+}
+
+.page-header{
+    border-top: double 9px #8A7C9C;
+    border-bottom: solid 3px #8A7C9C;
+}
+
+.page-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-list_item:not(:first-child){
+    margin-left:48px;
+}
+
+.menu-list_item a {
+    color: #000;
+    font-weight: 700;
+}
+
+.menu-list_item :hover{
+    color: #FFF;
+    text-shadow: 1px 1px 0 #8A7C9C,
+    -1px 1px 0 #8A7C9C,
+    1px -1px 0 #8A7C9C,
+    -1px -1px 0 #8A7C9C;
+}
+
+.logo, .logo_footer{
+    width: 160px;
+    height: auto;
+    margin-left: 96px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
